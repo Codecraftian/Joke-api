@@ -1,0 +1,56 @@
+body{
+  background: #ef9b52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  max-height: 400px;
+  max-width: 600px;
+  margin-top: 150px;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 10px 10px 35px  rgba(0, 0, 0, 0.347);
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+
+.box-content{
+  margin-top: 20px;
+}
+
+.box .box-content span{
+  font-size: 45px;
+}
+
+.box .box-content p{
+  color: white;
+  padding: 10px 50px;
+  line-height: 30px;
+  font-size: 20px;
+  justify-content: center;
+  content: justify;
+}
+
+p{
+  opacity: 0;
+}
+
+.fade{
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+.box .box-content button{
+  background: tomato;
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  bottom: 5%;
+}
